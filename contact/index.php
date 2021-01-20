@@ -17,13 +17,13 @@
 			<a class="header-logo" href="/">www.<strong>thexvisions</strong>.com</a>
 			<div class="socials-top">
 				<a href="#">
-					<img src="./assets/img/facebook.svg">
+					<img src="/assets/img/facebook.svg">
 				</a>
 				<a href="#">
-					<img src="./assets/img/youtube.svg">
+					<img src="/assets/img/youtube.svg">
 				</a>
 				<a href="#">
-					<img src="./assets/img/instagram.svg">
+					<img src="/assets/img/instagram.svg">
 				</a>
 			</div>
 		<nav>
@@ -52,13 +52,13 @@
 			<a class="header-logo" href="/">www.<strong>thexvisions</strong>.com</a>
 			<div class="socials-top">
 				<a href="#">
-					<img src="./assets/img/facebook.svg">
+					<img src="/assets/img/facebook.svg">
 				</a>
 				<a href="#">
-					<img src="./assets/img/youtube.svg">
+					<img src="/assets/img/youtube.svg">
 				</a>
 				<a href="#">
-					<img src="./assets/img/instagram.svg">
+					<img src="/assets/img/instagram.svg">
 				</a>
 			</div>
 		<nav>
