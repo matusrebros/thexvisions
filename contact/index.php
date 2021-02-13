@@ -37,13 +37,13 @@
 	<header id="header">
 			<a class="header-logo" href="/#hero">www.<strong>thexvisions</strong>.com</a>
 			<div class="socials-top">
-				<a href="#">
+				<a target="_blank" href="https://www.facebook.com/theXvisions">
 					<img src="./assets/img/facebook.svg">
 				</a>
-				<a href="#">
+				<a target="_blank" href="https://www.youtube.com/theXvisions">
 					<img src="./assets/img/youtube.svg">
 				</a>
-				<a href="#">
+				<a target="_blank" href="https://www.instagram.com/theXvisions">
 					<img src="./assets/img/instagram.svg">
 				</a>
 			</div>
