@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,35 +12,18 @@
 	<link rel="stylesheet" href="/assets/css/simple-lightbox.min.css">
 	<link rel="stylesheet" href="/assets/css/style.min.css">
 </head>
+
 <body>
 
-<header id="header">
-			<a class="header-logo" href="/">www.<strong>thexvisions</strong>.com</a>
-			<div class="socials-top">
-				<a href="#">
-					<img src="/assets/img/facebook.svg">
-				</a>
-				<a href="#">
-					<img src="/assets/img/youtube.svg">
-				</a>
-				<a href="#">
-					<img src="/assets/img/instagram.svg">
-				</a>
-			</div>
+	<div id="mobileNav">
 		<nav>
 			<ul>
 				<li>
-					<a href="/#home">Home</a>
-				</li>
-				<div class="line"></div>
-				<li>
 					<a href="/#about">About</a>
 				</li>
-				<div class="line"></div>
 				<li>
 					<a href="/#portfolio">Our work</a>
 				</li>
-				<div class="line"></div>
 				<li>
 					<a href="/#clients">Clients</a>
 				</li>
@@ -48,50 +32,59 @@
 				</li>
 			</ul>
 		</nav>
-	</header><header id="header">
-			<a class="header-logo" href="/">www.<strong>thexvisions</strong>.com</a>
+	</div>
+
+	<header id="header">
+			<a class="header-logo" href="/#hero">www.<strong>thexvisions</strong>.com</a>
 			<div class="socials-top">
 				<a href="#">
-					<img src="/assets/img/facebook.svg">
+					<img src="./assets/img/facebook.svg">
 				</a>
 				<a href="#">
-					<img src="/assets/img/youtube.svg">
+					<img src="./assets/img/youtube.svg">
 				</a>
 				<a href="#">
-					<img src="/assets/img/instagram.svg">
+					<img src="./assets/img/instagram.svg">
 				</a>
 			</div>
 		<nav>
 			<ul>
 				<li>
-					<a href="/#home">Home</a>
+					<a href="#home">Home</a>
 				</li>
 				<div class="line"></div>
 				<li>
-					<a href="/#about">About</a>
+					<a href="#about">About</a>
 				</li>
 				<div class="line"></div>
 				<li>
-					<a href="/#work">Our work</a>
+					<a href="#work">Our work</a>
 				</li>
 				<div class="line"></div>
 				<li>
-					<a href="/#clients">Clients</a>
+					<a href="#clients">Clients</a>
 				</li>
 				<li>
 					<a class="special-one" onclick="transitionToPage('/contact')">Get in touch</a>
 				</li>
 			</ul>
 		</nav>
+		<div id="burger" class="burger">
+			<div class="top"></div>
+			<div class="mid"></div>
+			<div class="bot"></div>
+		  </div>
 	</header>
 
-<section class="home-form">
+	<section class="home-form">
 		<div class="content">
 			<div class="container">
 				<span id="contact-bacc" onclick="transitionToPage('/')" class="bacc-button">Back to home</span>
 				<h4>Since 2015</h4>
 
-				<p>Beside of hitting VIRAL VIEWS on various youtube channels, we've created SUCCESSFUL CAMPAIGNS  for Brands / Products and Shows. If you like our work feel free to contact us and let's create something ! </p>
+				<p>Beside of hitting VIRAL VIEWS on various youtube channels, we've created SUCCESSFUL CAMPAIGNS for
+					Brands / Products and Shows. If you like our work feel free to contact us and let's create something
+					! </p>
 
 				<strong>London / Europe</strong>
 				<a href="#">theXvisions@gmail.com</a>
@@ -125,4 +118,5 @@
 	<script src="/assets/js/transition.js"></script>
 
 </body>
+
 </html>

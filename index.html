@@ -12,6 +12,25 @@
 </head>
 <body>
 
+	<div id="mobileNav">
+		<nav>
+			<ul>
+				<li>
+					<a href="/#about">About</a>
+				</li>
+				<li>
+					<a href="/#portfolio">Our work</a>
+				</li>
+				<li>
+					<a href="/#clients">Clients</a>
+				</li>
+				<li>
+					<a class="special-one" onclick="transitionToPage('/contact')">Get in touch</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
 	<header id="header">
 			<a class="header-logo" href="/#hero">www.<strong>thexvisions</strong>.com</a>
 			<div class="socials-top">
@@ -47,6 +66,11 @@
 				</li>
 			</ul>
 		</nav>
+		<div id="burger" class="burger">
+			<div class="top"></div>
+			<div class="mid"></div>
+			<div class="bot"></div>
+		  </div>
 	</header>
 
 	<video class="top-video" src="./assets/video/top-video.mp4" autoplay loop playsinline muted></video>

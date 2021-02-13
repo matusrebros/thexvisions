@@ -1,3 +1,12 @@
+//burger menu
+const burger = document.getElementById('burger')
+const mobileNav = document.getElementById('mobileNav')
+
+burger.addEventListener('click', () => {
+	burger.classList.toggle('active');
+	mobileNav.classList.toggle('active');
+})
+
 //header changer
 var isOutOfViewport = function (elem) {
 
@@ -41,10 +50,10 @@ $(document).ready(function(){
         responsive: [{
             breakpoint: 768,
             settings: {
-                slidesToShow: 4
+                slidesToShow: 3
             }
         }, {
-            breakpoint: 520,
+            breakpoint: 1250,
             settings: {
                 slidesToShow: 3
             }

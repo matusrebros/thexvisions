@@ -14,42 +14,66 @@
 </head>
 
 <body>
+	<div id="mobileNav">
+		<nav>
+			<ul>
+				<li>
+					<a href="/#about">About</a>
+				</li>
+				<li>
+					<a href="/#portfolio">Our work</a>
+				</li>
+				<li>
+					<a href="/#clients">Clients</a>
+				</li>
+				<li>
+					<a class="special-one" onclick="transitionToPage('/contact')">Get in touch</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
 	<header id="header">
-		<a class="header-logo" href="/">www.<strong>thexvisions</strong>.com</a>
-		<div class="socials-top">
-			<a href="#">
-				<img src="/assets/img/facebook.svg">
-			</a>
-			<a href="#">
-				<img src="/assets/img/youtube.svg">
-			</a>
-			<a href="#">
-				<img src="/assets/img/instagram.svg">
-			</a>
-		</div>
-	<nav>
-		<ul>
-			<li>
-				<a href="/#home">Home</a>
-			</li>
-			<div class="line"></div>
-			<li>
-				<a href="/#about">About</a>
-			</li>
-			<div class="line"></div>
-			<li>
-				<a href="/#work">Our work</a>
-			</li>
-			<div class="line"></div>
-			<li>
-				<a href="/#clients">Clients</a>
-			</li>
-			<li>
-				<a class="special-one" onclick="transitionToPage('/contact')">Get in touch</a>
-			</li>
-		</ul>
-	</nav>
-</header>
+			<a class="header-logo" href="/#hero">www.<strong>thexvisions</strong>.com</a>
+			<div class="socials-top">
+				<a href="#">
+					<img src="./assets/img/facebook.svg">
+				</a>
+				<a href="#">
+					<img src="./assets/img/youtube.svg">
+				</a>
+				<a href="#">
+					<img src="./assets/img/instagram.svg">
+				</a>
+			</div>
+		<nav>
+			<ul>
+				<li>
+					<a href="#home">Home</a>
+				</li>
+				<div class="line"></div>
+				<li>
+					<a href="#about">About</a>
+				</li>
+				<div class="line"></div>
+				<li>
+					<a href="#work">Our work</a>
+				</li>
+				<div class="line"></div>
+				<li>
+					<a href="#clients">Clients</a>
+				</li>
+				<li>
+					<a class="special-one" onclick="transitionToPage('/contact')">Get in touch</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="burger" class="burger">
+			<div class="top"></div>
+			<div class="mid"></div>
+			<div class="bot"></div>
+		  </div>
+	</header>
 
 	<section id="home" class="video-preview">
 		<!-- <img class="cross-back" src="/assets/img/cross.svg"> -->
