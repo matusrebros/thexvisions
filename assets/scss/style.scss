@@ -7,6 +7,7 @@ html,
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body,
@@ -254,6 +255,7 @@ h1 {
         display: flex;
         flex-flow: row wrap;
         justify-content: flex-start;
+        justify-content: center;
     }
 
     p {
@@ -840,7 +842,7 @@ span {
     }
 
     .video-container::after {
-        padding-top: 56.25%;
+        // padding-top: 56.25%;
         display: block;
         content: '';
     }
@@ -942,6 +944,12 @@ span {
         width: 20px;
         filter: invert(1);
         margin-left: 16px;
+    }
+
+    a {
+        &:hover {
+            opacity: 0.5;
+        }
     }
 }
 
@@ -1315,5 +1323,354 @@ $burger-animation: 300ms;
         padding: 8px 24px;
         margin: 8px;
     }
+
+}
+
+.topabout {
+    display: flex;
+
+    img {
+        max-width: 300px;
+    }
+
+    .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h2 {
+        margin: 24px 0;
+    }
+
+    img {
+        max-width: 160px;
+        margin-right: 64px;
+    }
+}
+
+
+/* style.min.css | http://localhost:8888/assets/css/style.min.css */
+
+.topabout h2 {
+    /* margin: 24px 0; */
+    margin: 0 0 24px 0;
+}
+
+.topabout {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topabout img {
+    /* margin-right: 64px; */
+    margin: 64px;
+    margin-top: 0;
+}
+
+.topabout .content {
+    align-items: center;
+}
+
+.topabout p {
+    text-align: center;
+}
+
+.topabout {
+    /* padding: 120px 32px; */
+    padding: 80px 32px;
+}
+
+// #videoiframe, #videocontent {
+// 	position: relative;
+// 	top: 50px;
+// 	opacity: 0;
+
+// 	transition: all 0.5s ease-in-out;
+
+// 	&.active {
+// 		top: 0;
+// 		opacity: 1;
+// 	}
+// }
+
+.topabout p {
+    font-weight: lighter;
+}
+
+
+/* style.min.css | http://localhost:8888/assets/css/style.min.css */
+
+footer .content .bottom-line {
+    display: none;
+}
+
+footer .content a:hover {
+    /* opacity: 0.5; */
+    opacity: 0.3;
+}
+
+footer .content a {
+    opacity: 0.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+footer .content strong {
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.viewport-header .top-buttons a {
+    font-size: 0.8em;
+}
+
+.topabout h2 {
+    text-transform: uppercase;
+}
+
+.topabout p {
+    font-size: 0.8em;
+}
+
+
+.video-preview-content .content-container p {
+    font-size: 0.7em;
+}
+
+.home-form .content .container a {
+    opacity: 0.8;
+    font-size: 0.8em;
+}
+
+
+
+
+/* style.min.css | http://localhost:8888/assets/css/style.min.css */
+
+.home-form .content .container strong {
+    /* font-size: 1.5em; */
+    font-size: 1.3em;
+}
+
+.home-form .content .container p {
+    font-size: 0.7em;
+}
+
+.home-form .content .container a {
+    /* margin-top: 16px; */
+    margin-top: 8px;
+}
+
+
+/* style.min.css | http://localhost:8888/assets/css/style.min.css */
+
+.home-form .content .container strong {
+    /* font-size: 1.5em; */
+    font-size: 0.9em;
+}
+
+.home-form .content .container p {
+    font-size: 0.6em;
+}
+
+.home-form .content .container a {
+    /* margin-top: 16px; */
+    margin-top: 8px;
+}
+
+.home-form .content .container a {
+    /* opacity: 0.8; */
+    /* font-size: 0.8em; */
+    opacity: 1;
+    font-size: 0.6em;
+}
+
+/* Prvok | http://localhost:8888/contact */
+
+.container>p:nth-child(3) {
+    font-size: 1em;
+}
+
+
+.video-preview-content {
+    margin-bottom: 56px;
+}
+
+#specificVideoContainer {
+    transform: translateY(30px);
+    transition: transform .5s;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 0.9em;
+
+    .content {
+        a {
+            margin: 4px 0;
+            letter-spacing: 0;
+            text-transform: none;
+        }
+
+        strong {
+            font-size: 1em;
+            letter-spacing: 1px;
+        }
+    }
+
+    .socials-footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        a {
+            width: 100%;
+            max-height: 30px;
+            margin: 8px 4px;
+        }
+
+        img {
+            filter: invert(1);
+            width: 100%;
+            max-width: unset;
+            max-height: 30px;
+        }
+    }
+}
+
+.policy {
+    margin: 32px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        color: #fff;
+        opacity: 0.8;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.9em;
+        text-transform: uppercase;
+    }
+
+    p {
+        color: #fff;
+        text-align: center;
+        font-size: 0.7em;
+        opacity: 0.5;
+    }
+}
+
+.policy-content {
+    padding: 56px 32px;
+    max-width: 960px;
+    margin: 0 auto;
+
+    h2 {
+        color: #fff;
+        text-align: center;
+    }
+
+    p {
+        color: #fff;
+    }
+
+    li {
+        color: #fff;
+    }
+
+    a {
+        color: gray;
+    }
+}
+
+#cookiesBanner {
+    background: lighten(black, 10);
+    width: 100%;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9999999;
+
+    padding: 8px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        color: #fff;
+        margin: 8px 0;
+        font-size: 0.8em;
+    }
+
+    button {
+        border-radius: 0;
+        border: 0;
+        outline: 0;
+        font-size: 0.8em;
+        margin-left: 32px;
+        padding: 4px;
+        cursor: pointer;
+    }
+
+    &.disabled {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .videos a {
+        width: 43%;
+    }
+
+    .topabout img {
+        max-width: 60px;
+    }
+
+    .topabout img {
+        margin: 32px;
+    }
+
+    .topabout {
+        padding: 32px;
+    }
+
+    .topabout {
+        padding: 32px;
+    }
+
+    .topabout h2 {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .topabout p {
+        margin-bottom: 16px;
+    }
+
+    #work {
+        margin-top: -56px;
+        padding-top: 56px;
+    }
+
+    footer {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer .content {
+        margin: 32px auto;
+    }
+
+
 
 }

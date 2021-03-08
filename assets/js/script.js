@@ -50,12 +50,12 @@ $(document).ready(function(){
         responsive: [{
             breakpoint: 768,
             settings: {
-                slidesToShow: 3
+                slidesToShow: 4
             }
         }, {
             breakpoint: 1250,
             settings: {
-                slidesToShow: 3
+                slidesToShow: 6
             }
         }]
     });
