@@ -49,7 +49,7 @@
 	<!-- <img loading="lazy" src="assets/img/theX_white.png"></img> -->
 	<div class="content">
 		<!-- <small>Video Production based in London | High Tatras</small> -->
-		<h2>You name it, we make it.</h2>
+		<h2>You name it, we make it</h2>
 		<!-- <p>Beside if hitting viral views online, we've created sick campaigns for brands and filmed the important events around the world. Meet THE X VISIONS, advertising production and postproduction company based in the London / High Tatras.</p> -->
 		<p>Beside hitting viral views, we are creating campaigns for brands and filming sick events around the world.
 		</p>
