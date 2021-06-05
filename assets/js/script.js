@@ -1,3 +1,5 @@
+var lightbox = $('.gallery a').simpleLightbox();
+
 //burger menu
 const burger = document.getElementById('burger')
 const mobileNav = document.getElementById('mobileNav')

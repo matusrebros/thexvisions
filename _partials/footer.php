@@ -1,12 +1,12 @@
 <footer>
 		<div class="content">
-			<strong>Find us</strong>
+			<strong>we are</strong>
 			<div class="bottom-line"></div>
-			<a>The X Visions LTD</a>
-			<a>High Tatras | London</a>
+			<i>The X Visions LTD</i>
+			<i>High Tatras | London</i>
 		</div>
 		<div class="content">
-			<strong>The X Visions LTD</strong>
+			<strong>Contact us</strong>
 			<div class="bottom-line"></div>
 			<a href="mailto:hello@thexvisions.com">
 				<!-- <img loading="lazy" src="/assets/img/mail.svg"> -->
@@ -20,7 +20,6 @@
 				<!-- <img loading="lazy" src="/assets/img/phone.svg"> -->
 				+421 911 470 818 ( SK )
 			</a>
-			<span>London | High Tatras</span>
 		</div>
 		<div class="content">
 			<strong>Socials</strong>
@@ -40,6 +39,7 @@
 	</footer>
 	<div class="policy">
 		<a href="/privacy-policy">Privacy policy</a>
+		<span><?php echo date("Y"); ?> © The X Visions</span>
 		<p>All rights reserved. No part of this website may be reproduced without permission.</p>
 	</div>
 
